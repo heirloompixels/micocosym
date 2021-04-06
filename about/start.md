@@ -6,8 +6,6 @@ tags: bio
 category: Overview 
 ---
 
-## Kyle Parker Cunningham
-
 ## April 2021: New Website!
 
 I'm working hard on this new website.  Simplifying all design and just bringing text and images for your viewing pleasure.  This site is minimal and fast.  Instead of fancy layouts I'm choosing to serve higher quality images and a simple layout which will work for years and be easy maintain for the rest of my life.  
@@ -25,6 +23,11 @@ Thank you for your interest in my work.  I hope you find this site wonderful, ev
 Kyle Parker Cunningham  
 April 6th, 2021  
 Elephants Nest, Truth or Consequences New Mexico
+
+
+## Work Overview
+
+A sampling of videos work I have done. 
 
 ### Preludes and Etudes
 
