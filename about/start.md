@@ -34,3 +34,32 @@ Jeannie I create art.  This is how we do it.
 
 ### Tomorrow
 
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/271582697" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+Site Specific Installatin, Las Cruces New Mexico
+
+### Field Theory
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/216054963" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+Mural
+Truth or Consequences, New Mexico
+
+### Bison Container
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/197821843" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+Mural
+Truth or Consequences, New Mexico
+
+### Blue Corn 
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/167796635" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+Intaglio Drypoin Print
+
+### The Crystal Hammer
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/167660025" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+Oil on Canvas
