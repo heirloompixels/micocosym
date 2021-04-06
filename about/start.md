@@ -14,9 +14,9 @@ I'm working hard on this new website.  Simplifying all design and just bringing 
 
 It's new, so it's not all going to work well for a bit.  I'm copying over all my old content but it's a slow and time consuming process, especially as I inevitably keep writting new and better descriptions and ruminations about my work.  
 
-My old site will remain archived here: https://attik.kyleparkercunningham.com  and if you need a fully featured website I suggest you puruse the site for a moment.  I have to warn you that a recent wordpress update broke a lot of my layouts and so some things do not work as they once did anymore.  Hence the new website you are viewing now.  
+My old site will remain archived [here](https://attik.kyleparkercunningham.com "attik.kyleparkercunningham.com") and if you need a fully featured website I suggest you puruse the site for a moment.  I have to warn you that a recent wordpress update broke a lot of my layouts and so some things do not work as they once did anymore.  Hence the new website you are viewing now.  
 
-Jeannie and I have launched a new project: https://intentionallyconfusing.com and I hope you will take a moment to join that site.  Intentionally Confusing will be a repository for all our social media posting as well as the best and latest updates from our life working and creating in the wild.  
+Jeannie and I have launched a new [project](https://intentionallyconfusing.com "intentionallyconfusing.com") and I hope you will take a moment to join that site.  Intentionally Confusing will be a repository for all our social media posting as well as the best and latest updates from our life working and creating in the wild.  
 
 This site will from now forward be the master archive of my work, my catalog raison if you will.  I hope to have this new site finished by the end of April 2021, many words to write and pixels to polish but deadlines have to be kept. 
 
