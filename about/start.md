@@ -22,8 +22,8 @@ This site will from now forward be the master archive of my work, my catalog rai
 
 Thank you for your interest in my work.  I hope you find this site wonderful, evolving and entertaining. 
 
-Kyle Parker Cunningham
-April 6th, 2021
+Kyle Parker Cunningham  
+April 6th, 2021  
 Elephants Nest, Truth or Consequences New Mexico
 
 ### Preludes and Etudes
