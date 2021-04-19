@@ -1,5 +1,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const Image = require("@11ty/eleventy-img");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const markdownIt = require("markdown-it");
@@ -17,6 +18,50 @@ module.exports = function (eleventyConfig) {
 </aside>
             `;
   });
+
+  eleventyConfig.addLiquidShortcode("myImage", async function(src, alt) {
+    if (!alt) {
+      throw new Error(`Missing \`alt\` on Image from: ${src}`);
+    }
+
+    let stats = await Image(src, {
+      widths: [25, 320, 640, 960, 1200, 1800, 2400],
+      formats: ["jpeg", "webp"],
+      urlPath: "/grfx/",
+      outputDir:  "./_site/grfx/",
+    });
+
+    let lowestSrc = stats["jpeg"][2];
+    let highResJpeg = stats["jpeg"][3];
+    let lowReswebp = stats["webp"][2];
+    let highReswebp = stats["webp"][3];
+  
+
+    const srcset = Object.keys(stats).reduce(
+      (acc, format) => ({
+        ...acc,
+        [format]: stats[format].reduce(
+          (_acc, curr) => `${_acc} ${curr.srcset} ,`,
+          ""
+        ),
+      }),
+      {}
+    );
+
+    const source = `<source type="image/webp" media="(max-width: 629px)" srcset="${lowReswebp.url}" >
+                    <source type="image/webp" media="(min-width: 630px)" srcset="${highReswebp.url}" >
+                    <source type="image/jpeg" media="(max-width: 529px)" srcset="${lowestSrc.url}" >
+                    <source type="image/jpeg" media="(min-width: 630px)" srcset="${highResJpeg.url}" >`;
+
+    const img = `<img 
+                loading="lazy" 
+                alt="${alt}" 
+                width="${highResJpeg.width}"
+                src="${lowestSrc.url}">`;
+
+    return `<picture>${source}${img}</picture>`;
+  });	
+
   eleventyConfig.addFilter("wordcount", function (s) {
     const words = s.split(" ");
     const minutes = words.length / 180;
@@ -207,4 +252,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
   return {};
+
+
+
+
+
 };

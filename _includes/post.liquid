@@ -3,7 +3,7 @@ layout: base
 class: post
 ---
 
-<aside class="post-meta">
+<aside class="post-meta" style="visibility:hidden;">
 	{% if tags %}
 	{% assign t = tags | first %}
 	{% if t == "work" %}
@@ -14,7 +14,6 @@ class: post
 	{% if teacher %}
 	<span><a href="/notes">Lecture Notes</a></span>
 	{% endif %}
-
 	<date class="post-date post-meta-item">
 		{{ page.date | date: "%B %d, %Y" }}
 	</date>
