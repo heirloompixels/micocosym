@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work 
 title: "Elephant Mask" 
 date: 2018-06-14
 tags: work
