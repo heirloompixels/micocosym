@@ -215,8 +215,9 @@ module.exports = function (eleventyConfig) {
     })
     return postsByYear.reverse()
   })
-  eleventyConfig.addCollection("workByYear", function (collectionApi) {
-    const work = collectionApi.getFilteredByGlob(["./work/*.md"]);
+
+  eleventyConfig.addCollection("oeuvreByYear", function (collectionApi) {
+    const work = collectionApi.getFilteredByGlob(["./oeuvre/*/*/*.md","./oeuvre/*/*.md","./oeuvre/*.md"]);
     let workByYear = []
     let currentYear = ""
 
@@ -239,6 +240,9 @@ module.exports = function (eleventyConfig) {
     })
     return workByYear.reverse()
   })
+
+
+
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("dist");
   eleventyConfig.addPassthroughCopy("./*.png");

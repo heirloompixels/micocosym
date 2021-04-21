@@ -35,13 +35,13 @@ class: home
 
 
 <section class='home-work home-section'>
-    <h2 style="--rows: {{collections.work | size}}">
+    <h2 style="--rows: {{collections.oeuvreByYear | size}}">
         <span>
-            Artworks. 
+            Oeuvre. 
         </span>
     </h2>
     <ul class='project-list'>
-        {% for year in collections.workByYear %}
+        {% for year in collections.oeuvreByYear %}
         <span class="project-date" style="grid-row: span {{year.posts | size}}">
             <span>
                 {{year.shortYear}}
@@ -62,7 +62,8 @@ class: home
     </ul>
 </section>
 <div class="spacer"></div>
-<section class='home-writing home-section'>
+
+
     <h2 style="--rows: {{collections.post | size}}">
         <span>Writing</span>
     </h2>
