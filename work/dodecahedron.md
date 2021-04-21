@@ -1,15 +1,15 @@
 ---
 layout: work 
-title: "Elephant Mask" 
-date: 2018-06-14
-tags: work
+title: "Dodecahedron"
+date: 2012-06-14
+tags: work 
 category: Painting 
 ---
 
 
 {% myImage "./grfx/paintings/dodecahedron.jpg" "Atmospheric Whale Working overtime tonight" %}
 
-## Elephant Mask
+## Dodecahedron
 
 New futures inside of nothing.
 
