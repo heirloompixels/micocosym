@@ -11,7 +11,7 @@ category: Painting
 ---
 
 
-{% myImage "./grfx/2016/paintings/crystalized_bison.jpg" "A stylized whale with super cool crystal teeth." %}
+{% myImage "./grfx/2016/paintings/crystalized_bison.jpeg" "A stylized whale with super cool crystal teeth." %}
 
 ## Crystalized Bison 
 

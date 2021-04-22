@@ -11,8 +11,12 @@ category: Painting
 ---
 
 
-{% myImage "./grfx/2016/paintings/crystalized_bison.jpg" "A stylized whale with super cool crystal teeth." %}
+{% myImage "./grfx/2020/paintings/shawn.jpeg" "A portrait of Shawn whom stares straight into the viewers eyes.  The painting is painted in a most realisitic styele." %}
 
-## Shawn 
+## Shawn Fischer
+
+Of Flagship Romance Fame. 
+
+
 
 

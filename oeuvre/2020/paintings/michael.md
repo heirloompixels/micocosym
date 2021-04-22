@@ -11,6 +11,8 @@ category: Painting
 ---
 
 
-{% myImage "./grfx/2016/paintings/crystalized_bison.jpg" "A stylized whale with super cool crystal teeth." %}
+{% myImage "./grfx/2020/paintings/michael.jpeg" "A realistic painting of my friend Michael." %}
 
 ## Michael 
+
+One of my dearest friends.

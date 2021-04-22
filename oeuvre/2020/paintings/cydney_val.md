@@ -11,6 +11,12 @@ category: Painting
 ---
 
 
-{% myImage "./grfx/2016/paintings/crystalized_bison.jpg" "A stylized whale with super cool crystal teeth." %}
+{% myImage "./grfx/2020/paintings/cydney_val.jpeg" "Cydney is on the left looking magestic and Val is on the right learning forward." %}
 
 ## Cydney & Val 
+
+Cydney & Val
+
+Cydney and Val in costrume at the 2019 Dada Ball in Truth or Consequences, New Mexico.
+
+Two of my favorite humans. 

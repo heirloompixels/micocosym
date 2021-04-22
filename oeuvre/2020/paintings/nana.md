@@ -11,8 +11,8 @@ category: Painting
 ---
 
 
-{% myImage "./grfx/2016/paintings/crystalized_bison.jpg" "A stylized whale with super cool crystal teeth." %}
+{% myImage "./grfx/2020/paintings/nana.jpeg" "A realistic painting of the 96 year old Julia Prudencia Caballero Ortiz. She is looking forward and centered in the painting." %}
 
-## Nana 
+## Julia Prudencia Caballero Ortiz
 
 Jeannie's Nana whom was 97 at the time of this painting.
