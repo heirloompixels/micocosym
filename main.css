@@ -534,7 +534,6 @@ img.loaded {
   font-family: "Helvetica", sans-serif;
   max-width: 34em;
   letter-spacing: 0.012em;
-  display: flex;
   line-height: 1.2;
   align-items: flex-start;
 }
