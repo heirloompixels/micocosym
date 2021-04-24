@@ -14,3 +14,9 @@ You see one day very soon (oh so soon) we are all going to be interacting with r
 Yet this omniscient interconnected pan-cognizant future will also allow us to realize everyone bleeds and loves and laughs the exact same way and though dogma might cause us to dye our cloth differently that is no reason to kill each other. And so I dream of this world, when elephants tweet about good water holes and mud baths and us humans share space with the bees.
 
 Mostly Oil. 
+
+## Live Painting
+
+There is a certain magic involved in painting and it is the experience of realizing a painting, the point when it comes into the world as its own thing. This moment is when a piece goes from my hands of control to its own. I make it to a point but then I’m just responsible for finishing what it has become.
+
+I love to bring this experience out from the cobwebbed studio to the broad daylight for all to see and experience and participate in this small piece of wizardry.
