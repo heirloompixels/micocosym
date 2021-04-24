@@ -10,7 +10,7 @@ tags:  oeuvre painting
 category: Painting 
 ---
 
-
+{% myImage "./grfx/2021/paintings/polar_bear_progress_2.jpeg" "First layer of a painting of a polar bear in a glass bubble floating on the ocean trailing glass bubbles filled with ice behind them." %}
 
 ## Polar Bear
 
@@ -19,5 +19,4 @@ These polar bears, they learned how to blow glass and crafted mostly round bubbl
 Binary detritus of a bygone era.
 
 {% myImage "./grfx/2021/paintings/polar_bear_progress_1.jpeg" "Close up of the rough first layer of a painting of a polar bear." %}
-{% myImage "./grfx/2021/paintings/polar_bear_progress_2.jpeg" "Close up of the rough first layer of a painting of a polar bear." %}
 
