@@ -1,6 +1,6 @@
 ---
 layout: oeuvre 
-title: ""
+title: "Whale + Sequoia"
 date: 2021-04-21
 genesis: "spring 2021"
 medium: "oil on linen"
