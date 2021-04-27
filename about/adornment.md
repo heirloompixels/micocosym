@@ -14,7 +14,6 @@ All beading is done by my partner Jeannie Ortiz. I make the metal bits and she m
 
 
 {% myImage "./grfx/about/adornment/adornment_1.jpg" "TODO" %}
-{% myImage "./grfx/about/adornment/adornment_1.jpg" "TODO" %}
 {% myImage "./grfx/about/adornment/adornment_2.jpg" "TODO" %}
 {% myImage "./grfx/about/adornment/adornment_3.jpg" "TODO" %}
 {% myImage "./grfx/about/adornment/adornment_4.jpg" "TODO" %}

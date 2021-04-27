@@ -13,3 +13,5 @@ Jeannie and I wander incessantly. It fuels our minds and at it’s core is what 
 
 Our adventures fuel our art and inform everything we do; if you want to know more about our art then you must also get to know our adventures. 
 
+I have much to write and document about our adventures, but for a perfectly immediate fix I would suggest you visit [https://intentionallyconfusing.com](https://intentionallyconfusing.com). Jeannie and I launched this new project in the spring of 2021 as a way to document and forment creativity around art and adventure. 
+
