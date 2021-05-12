@@ -2,35 +2,19 @@
 layout: base
 class: home
 ---
-<section class="intro" style="grid-column: 2/12;margin: 15vh 0 15vh 0;">
-<h2>April 26th, 2021</h2>
-<br>
-<p>
-Happy Pink Moon!
-</p>
-<br>
-<p>
-Continued work on the new website, still much to be done but working efficiently to be done by May 11th, 2021. I am working on the about section currently and then will focus on getting a projects section up with description of the various projects and bodies of work I have produced. 
-</p>
-<br>
-<p>
-The Oeuvre will take quite some additional time to finish, realisitically probably years but in time all works I have documented (which is most of what i've created) will be documented in the Oeuvre. 
-</p>
-<br>
-<br>
-<p>Current Project: <a href="https://intentionallyconfusing.com">intentionallyconfusing.com</a></p>
-
+<section class="single-post intro" style="grid-column: 2/12;margin: 15vh 0 15vh 0;">
+<h2>May 12th, 2021</h2>
 <br>
 <br>
 <p>
-Currently Exhibiting: <a href="https://desertarchaic.com">https://desertarchaic.com</a>
-<br>
-Shop online: <a href="https://shop.intentionallyconfusing.com">shop.intentionallyconfusing.com</a>
-<br>
-<a href="https://instagram.com/kyleparkercunning">instagram</a> & <a href="https://facebook.com/kyleparkercunningham">facebook</a>: @kyleparkercunningham
+Building and adding content constantly that is the way.  <a href="jeannieortiz.com">Jeannie</a> and I are creating a new art project together entitled <a href="https://intentionallyconfusing.com">Intentionally Confusing</a> and if you would like a more detailed look at our art practices on a daily level I would encourage you to go there.  Think about that site as our long term answer to how do we get off of social media.  I hope you like it.
 </p>
-
-
+<br>
+<p>
+This site is my archive of work.  It'll take some time to be fully flushed out as I have much old material to fully document and share in this space.  Luckily there is plenty of interesting material already here on this site to keep on entertained for hours.  Good luck getting lost in these pages. 
+</p>
+<br>
+<p>Kyle</p>
 </section>
 
 
@@ -63,6 +47,37 @@ Shop online: <a href="https://shop.intentionallyconfusing.com">shop.intentionall
 </section>
 <div class="spacer"></div>
 
+<section class='home-projects home-section'>
+    <h2 style="--rows: {{collections.projectsByYear | size}}">
+        <span>
+            Projects 
+        </span>
+    </h2>
+    <ul class='project-list'>
+        {% for year in collections.projectsByYear %}
+        <span class="project-date" style="grid-row: span {{year.posts | size}}">
+            <span>
+                {{year.shortYear}}
+            </span>
+        </span>
+        {% assign posts = year.posts | reverse%}
+        {% for p in posts%}
+        <li class='project-list-item'>
+            <h3 class="project-title">
+                <a href='{{ p.url }}'>
+                    {{p.data.title}}
+                </a>
+            </h3>
+            <span class="project-category">{{p.data.category}}</span>
+        </li>
+        {% endfor %}
+        {% endfor %}
+    </ul>
+</section>
+<div class="spacer"></div>
+
+
+
 
 <section class='home-work home-section'>
     <h2 style="--rows: {{collections.oeuvreByYear | size}}">
@@ -94,8 +109,9 @@ Shop online: <a href="https://shop.intentionallyconfusing.com">shop.intentionall
 <div class="spacer"></div>
 
 
+<section class='home-work home-section'>
     <h2 style="--rows: {{collections.post | size}}">
-        <span>Writing</span>
+        <span>writing</span>
     </h2>
     <nav class='project-list'>
         {% for year in collections.postsByYear %}

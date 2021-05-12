@@ -241,6 +241,33 @@ module.exports = function (eleventyConfig) {
     return workByYear.reverse()
   })
 
+  eleventyConfig.addCollection("projectsByYear", function (collectionApi) {
+    const work = collectionApi.getFilteredByGlob(["./projects/*/*/*.md","./projects/*/*.md","./projects/*.md"]);
+    let workByYear = []
+    let currentYear = ""
+
+    work.forEach(p => {
+      let y = new Date(p.data.date).getFullYear()
+      if (p.data.draft !== true) {
+
+        if (y !== currentYear) {
+          workByYear.push({
+            year: y,
+            shortYear: y.toString().substr(2),
+            posts: [p]
+          })
+          currentYear = y;
+        } else {
+          let index = getIndex(workByYear, "year", currentYear)
+          workByYear[index].posts.push(p)
+        }
+      }
+    })
+    return workByYear.reverse()
+  })
+
+
+
 
 
   eleventyConfig.addPassthroughCopy("assets");
