@@ -3,7 +3,7 @@ layout: post
 title: "Extinction Rebellion" 
 date: 2021-01-21 
 tags: projects 
-category: Projects 
+category: Painting 
 ---
 
 Geological moments from now nature will  absorb our technology in order to survive the world we are creating. Detritus of failed space colonization experiments become breathing apparatus for migrating cranes who cannot otherwise tolerate the pollution.  Clever human GMO tricks are repurposed to help creatures adapt and evolve at an alarming pace.  Mutual aid rules the day in this world as sea creatures ferry dying trees to save atolls now unreachable to human endeavors.

@@ -3,7 +3,7 @@ layout: post
 title: "Current" 
 date: 2021-03-21 
 tags: projects 
-category: Projects 
+category: Overview 
 ---
 
 I work in a wide range of areas all of which are more or less related to art.

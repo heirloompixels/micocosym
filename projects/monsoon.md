@@ -3,7 +3,7 @@ layout: post
 title: "Monsoon" 
 date: 2014-03-21 
 tags: projects monsoon
-category: Projects 
+category: Painting 
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "Elephant Nest" 
 date: 2011-03-21 
 tags: projects
-category: Projects 
+category: Art Laboratory 
 ---
 
 ## Elephant Nest

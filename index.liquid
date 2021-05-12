@@ -21,7 +21,7 @@ This site is my archive of work.  It'll take some time to be fully flushed out a
 <section class='home-about home-section'>
     <h2 style="--rows: {{collections.aboutByYear | size}}">
         <span>
-            About 
+            About. 
         </span>
     </h2>
     <ul class='project-list'>
@@ -50,7 +50,7 @@ This site is my archive of work.  It'll take some time to be fully flushed out a
 <section class='home-projects home-section'>
     <h2 style="--rows: {{collections.projectsByYear | size}}">
         <span>
-            Projects 
+            Projects. 
         </span>
     </h2>
     <ul class='project-list'>
@@ -74,6 +74,43 @@ This site is my archive of work.  It'll take some time to be fully flushed out a
         {% endfor %}
     </ul>
 </section>
+
+
+<div class="spacer"></div>
+
+
+<section class='home-work home-section'>
+    <h2 style="--rows: {{collections.post | size}}">
+        <span>Writing.</span>
+    </h2>
+    <nav class='project-list'>
+        {% for year in collections.postsByYear %}
+        <span class="project-date" style="grid-row: span {{year.posts | size}}">
+            <span>
+                {{year.shortYear}}
+            </span>
+        </span>
+        {% assign posts = year.posts | reverse %}
+        {% for post in posts %}
+        <li class='project-list-item'>
+            <h3 class="project-title">
+                <a href="{{ post.url }}">
+                    {% if post.data.shortTitle %}
+                    {{ post.data.shortTitle }}
+                    {% else %}
+                    {{ post.data.title }}
+                    {% endif %}
+                </a>
+            </h3>
+            <span class="project-category">{{post.data.publication}}</span>
+        </li>
+        {% endfor %}
+        {% endfor %}
+    </nav>
+</section>
+
+
+
 <div class="spacer"></div>
 
 
@@ -106,35 +143,4 @@ This site is my archive of work.  It'll take some time to be fully flushed out a
         {% endfor %}
     </ul>
 </section>
-<div class="spacer"></div>
 
-
-<section class='home-work home-section'>
-    <h2 style="--rows: {{collections.post | size}}">
-        <span>writing</span>
-    </h2>
-    <nav class='project-list'>
-        {% for year in collections.postsByYear %}
-        <span class="project-date" style="grid-row: span {{year.posts | size}}">
-            <span>
-                {{year.shortYear}}
-            </span>
-        </span>
-        {% assign posts = year.posts | reverse %}
-        {% for post in posts %}
-        <li class='project-list-item'>
-            <h3 class="project-title">
-                <a href="{{ post.url }}">
-                    {% if post.data.shortTitle %}
-                    {{ post.data.shortTitle }}
-                    {% else %}
-                    {{ post.data.title }}
-                    {% endif %}
-                </a>
-            </h3>
-            <span class="project-category">{{post.data.publication}}</span>
-        </li>
-        {% endfor %}
-        {% endfor %}
-    </nav>
-</section>

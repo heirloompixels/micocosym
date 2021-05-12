@@ -3,7 +3,7 @@ layout: post
 title: "Ephemera" 
 date: 2015-03-21 
 tags: projects 
-category: Projects 
+category: Printmaking 
 ---
 
 ## Ephemera

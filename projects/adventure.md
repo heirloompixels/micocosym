@@ -3,7 +3,7 @@ layout: post
 title: "Adventure" 
 date: 2006-03-21 
 tags: projects 
-category: Projects 
+category: Life 
 ---
 
 ## Adventures

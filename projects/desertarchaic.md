@@ -3,7 +3,7 @@ layout: post
 title: "Desert Archaic" 
 date: 2017-03-21 
 tags: projects 
-category: Projects 
+category: Art Laboratory 
 ---
 
 ## Desert Archaic
