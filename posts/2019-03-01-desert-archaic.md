@@ -6,6 +6,7 @@ includesMath: false
 includesMusic: false
 intro: ""
 publication: Impressions 
+tags: ['news', 'posts']
 ---
 
 The Caballo Mountains to the south of Truth or Consequences display a truly astounding cross section of earth’s time; rock layers begin in the Precambrian and continue through the present. Geological time travel: dinosaurs and coral reefs, fern forests and redwood trees, mammoth hunters and atomic bomb builders.

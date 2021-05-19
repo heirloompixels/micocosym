@@ -2,19 +2,29 @@
 layout: base
 class: home
 ---
+
 <section class="single-post intro" style="grid-column: 2/12;margin: 15vh 0 15vh 0;">
-<h2>May 12th, 2021</h2>
-<br>
-<br>
-<p>
-Building and adding content constantly that is the way.  <a href="jeannieortiz.com">Jeannie</a> and I are creating a new art project together entitled <a href="https://intentionallyconfusing.com">Intentionally Confusing</a> and if you would like a more detailed look at our art practices on a daily level I would encourage you to go there.  Think about that site as our long term answer to how do we get off of social media.  I hope you like it.
-</p>
-<br>
-<p>
-This site is my archive of work.  It'll take some time to be fully flushed out as I have much old material to fully document and share in this space.  Luckily there is plenty of interesting material already here on this site to keep on entertained for hours.  Good luck getting lost in these pages. 
-</p>
-<br>
-<p>Kyle</p>
+
+
+{%- assign firstPosts = true -%}
+
+
+{%- for post in collections.posts reversed -%}
+{%- if firstPosts -%}
+	<h2>{{ post.data.title }}</h2>
+	<div class="post-content">
+		{{ post.templateContent }}
+	</div>
+{%- assign firstPosts = false -%}
+<h3>Previous Dispatches:</h3>
+<ul>
+{%- else %}
+  <li>{{ post.data.title }}</li>
+
+{%- endif -%}
+{%- endfor -%}
+</ul>
+
 </section>
 
 
