@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Progress"
+title: "Continual Progress (website)"
 date: 2021-05-12 10:00:00
 includesMath: false
 includesMusic: false
