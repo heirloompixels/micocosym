@@ -4,10 +4,12 @@ title: "Shawn"
 date: 2020-09-21
 genesis: "Spring 2020"
 medium: "oil on linen"
-dimensions: "12x18 inches"
+dimensions: "12 x 16 inches"
 status: "available" 
-tags:  oeuvre painting 
+tags:  [ "oeuvre",  "painting", "TorC" ]  
 category: Painting 
+Series: TorC
+notes:
 ---
 
 

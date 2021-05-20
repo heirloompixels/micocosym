@@ -1,18 +1,17 @@
 ---
-layout: work 
+layout: oeuvre 
 title: "Expansion"
-date: 2014-06-21
-tags: work 
+date: 2014-09-21
+genesis: "summer 2014, reworked 2020"
+medium: "oil on handloom linen on panel"
+dimensions: "6 x 9 inches"
+status: "available" 
 category: Painting 
+tags:  [ "oeuvre",  "painting", "Monsoon" ]  
+series: Monsoon
+notes: "My handloom." 
 ---
 
+Spring the mind to change the world. 
 
-{% myImage "./grfx/paintings/expansion.jpg" "Expand the mind the relieve new realities" %}
-
-## Expansion
-
-We are movable, morphable and always changable.
-
-oil on handwoven linen
-6x7 inches
-summer 2014
+TODO: {remove% myimage "path" "alt" %remove}

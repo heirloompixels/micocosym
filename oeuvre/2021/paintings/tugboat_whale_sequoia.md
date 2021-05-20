@@ -1,13 +1,15 @@
 ---
 layout: oeuvre 
-title: "Whale + Sequoia"
+title: "Tugboat (Whale + Sequoia)"
 date: 2021-04-21
 genesis: "spring 2021"
 medium: "oil on linen"
 dimensions: "13x34 inches"
 status: "available" 
-tags:  oeuvre painting 
+tags:  [ "oeuvre",  "painting", "XR" ]  
 category: Painting 
+series: "Extinction Rebellion"
+notes:
 ---
 
 

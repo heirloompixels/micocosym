@@ -1,9 +1,15 @@
 ---
-layout: work 
-title: "Octopus + Alligator Juniper" 
-date: 2021-07-20
-tags: work
+layout: oeuvre 
+title: "Tugboat (Octopus + Alligator Juniper)"
+date: 2021-05-21
+genesis: "Spring 2021"
+medium: "oil on linen"
+dimensions: "16 x 20  inches"
+status: "available" 
+tags:  [ "oeuvre",  "painting", "XR" ]  
 category: Painting 
+series: Extinction Rebellion
+notes: 
 ---
 
 {% myImage "./grfx/2021/paintings/octopus_juniper.jpeg" "Whale + Sequoia: In progress, about two layers from the end." %}
