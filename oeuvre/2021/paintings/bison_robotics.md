@@ -1,5 +1,6 @@
 ---
 layout: oeuvre 
+image: "/grfx/2021/paintings/bison_robotics.jpg"
 title: "Bison Robotics"
 date: 2021-03-21
 genesis: "spring 2021"
@@ -14,4 +15,4 @@ notes:
 
 They will one day again roam the great plains. 
 
-TODO: {addimage% myimage "path" "alt" %x}
+{% myImage "./grfx/2021/paintings/bison_robotics.jpg" "Bison Roboticized" %}

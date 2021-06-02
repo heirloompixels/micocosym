@@ -13,7 +13,7 @@ notes:
 ---
 
 
-{% myImage "./grfx/2021/paintings/whale_sequoia.jpeg" "." %}
+{% myImage "./grfx/2021/paintings/tugboat_whale_sequoia.jpg" "." %}
 
 ## Whale + Sequoia 
 

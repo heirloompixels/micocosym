@@ -13,7 +13,7 @@ notes:
 ---
 
 
-{% myImage "./grfx/2020/paintings/shawn.jpeg" "A portrait of Shawn whom stares straight into the viewers eyes.  The painting is painted in a most realisitic styele." %}
+{% myImage "./grfx/2020/paintings/shawn.jpg" "A portrait of Shawn whom stares straight into the viewers eyes.  The painting is painted in a most realisitic styele." %}
 
 ## Shawn Fischer
 

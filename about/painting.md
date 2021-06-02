@@ -19,7 +19,7 @@ Yet this omniscient interconnected pan-cognizant future will also allow us to re
 {% myImage "./grfx/2021/paintings/whale_sequoia.jpeg" "TODO" %}
 {% myImage "./grfx/2021/paintings/owl.jpeg" "TODO" %}
 {% myImage "./grfx/2021/paintings/bison.jpeg" "TODO" %}
-{% myImage "./grfx/2021/paintings/octopus_juniper.jpeg" "TODO" %}
+{% myImage "./grfx/2021/paintings/tugboat_octopus_alligator_juniper.jpg" "TODO" %}
 
 
 

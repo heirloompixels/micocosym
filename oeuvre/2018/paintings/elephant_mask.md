@@ -7,7 +7,7 @@ category: Painting
 ---
 
 
-{% myImage "./grfx/paintings/elephant_mask.jpg" "Atmospheric Whale Working overtime tonight" %}
+{% myImage "./grfx/2018/paintings/elephant_mask.jpg" "Atmospheric Whale Working overtime tonight" %}
 
 ## Elephant Mask
 

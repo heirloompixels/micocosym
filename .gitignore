@@ -7,3 +7,4 @@ tmp/
 .jekyll-cache/
 /_includes/style.css
 yarn-error.log
+*.RAF

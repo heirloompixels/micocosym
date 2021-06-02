@@ -13,4 +13,4 @@ series: Extinction Rebellion
 
 Space program detritus and grain binge daydreams. 
 
-TODO: {addimage% myimage "path" "alt" %x}
+{% myImage "./grfx/2020/paintings/migratory_scavengers.jpg" "Four cranes wearing post anthropocene space suits rip apart a lunar lander type space ship and use it's part to rebuild the future" %}
