@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: about 
 title: "Stone" 
 date: 2021-03-19
-tags: bio
+tags: about 
 category: Stone 
 ---
 

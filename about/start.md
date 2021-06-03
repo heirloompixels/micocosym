@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: about 
 title: "Introduction" 
 date: 2021-04-06
-tags: bio
+tags: about
 category: Overview 
 ---
 

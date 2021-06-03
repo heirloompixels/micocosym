@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects
 title: "Adventure" 
 date: 2006-03-21 
 tags: projects 

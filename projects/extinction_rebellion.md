@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects 
 title: "Extinction Rebellion" 
 date: 2021-01-21 
 tags: projects 

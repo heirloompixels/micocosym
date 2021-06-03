@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: about 
 title: "Adornment" 
 date: 2021-03-21 
-tags: bio
+tags: about 
 category: Adornment
 ---
 

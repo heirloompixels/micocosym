@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects
 title: "Meteoric" 
 date: 2019-03-21 
 tags: projects 

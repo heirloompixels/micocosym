@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects
 title: "Himalaya" 
 date: 2005-03-21 
 tags: projects 

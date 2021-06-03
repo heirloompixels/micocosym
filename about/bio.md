@@ -2,7 +2,7 @@
 layout: post
 title: "Bio + CV" 
 date: 2021-03-22
-tags: bio
+tags: ['about','bio']
 category: Biographical
 ---
 

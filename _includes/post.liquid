@@ -3,7 +3,7 @@ layout: base
 class: post
 ---
 
-<aside class="post-meta" style="visibility:hidden;">
+<aside class="post-meta" >
 	{% if tags %}
 	{% assign t = tags | first %}
 	{% if t == "work" %}
@@ -17,7 +17,6 @@ class: post
 	<date class="post-date post-meta-item">
 		{{ page.date | date: "%B %d, %Y" }}
 	</date>
-	<span>{{content | strip_html | wordcount}} minutes</span>
 </aside>
 <header class="post-header {% if intro%}has-intro{%endif%}">
 	<div class='header-copy'>
@@ -43,5 +42,21 @@ class: post
 	<div class="post-content">
 		{{ content | safe }}
 	</div>
+
+
 </article>
-<aside class="post-footnotes"></aside>
+<aside class="post-footnotes">
+{% assign previousPost = collections.posts | getPreviousCollectionItem: page %}
+{% assign nextPost = collections.posts | getNextCollectionItem: page %}
+
+<p>
+&middot;
+{% if previousPost %}<a href="{{previousPost.url}}">previous</a>{% endif %}  
+&middot;
+{% if nextPost %}<a href="{{nextPost.url}}">next</a>{% endif %}
+&middot;
+</p>
+
+</aside>
+
+

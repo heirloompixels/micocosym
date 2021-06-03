@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects
 title: "Monsoon" 
 date: 2014-03-21 
 tags: projects monsoon

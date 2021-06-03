@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects
 title: "Tomorrow" 
 date: 2018-03-21 
 tags: projects 

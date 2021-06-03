@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: projects 
 title: "Collections" 
 date: 2007-03-21 
 tags: projects 
