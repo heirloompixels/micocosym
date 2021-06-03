@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: about 
 title: "Painting" 
 date: 2021-03-21 
 tags: bio

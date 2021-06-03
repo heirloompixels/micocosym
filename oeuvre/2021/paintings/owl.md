@@ -6,7 +6,7 @@ genesis: "spring 2021"
 medium: "oil on baltic birch panel"
 dimensions: "12x17.5 inches"
 status: "available" 
-tags:  oeuvre painting 
+tags:  ['oeuvre', 'painting'] 
 category: Painting 
 ---
 

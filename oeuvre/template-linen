@@ -1,6 +1,8 @@
 ---
 layout: oeuvre 
 title: ""
+thumb:
+image:
 date: 2016-09-21
 genesis: ""
 medium: "oil on linen"
@@ -8,7 +10,7 @@ dimensions: "14x36 inches"
 status: "available" 
 tags:  [ "oeuvre",  "painting", "XR" ]  
 category: Painting 
-series: Monsoon
+series: 
 notes: 
 ---
 
