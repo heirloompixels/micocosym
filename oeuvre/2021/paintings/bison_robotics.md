@@ -6,7 +6,7 @@ date: 2021-03-21
 genesis: "spring 2021"
 medium: "oil on linen"
 dimensions: "21 x 34 inches"
-status: "available" 
+status: "private collection" 
 tags:  [ "oeuvre",  "painting", "XR" ]  
 category: Painting 
 series: "Extinction Rebllion"

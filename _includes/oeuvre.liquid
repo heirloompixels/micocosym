@@ -39,9 +39,7 @@ class: post
 	</div>
 </header>
 <article class='single-post {{page.class}} section-{{page.section}}'>
-	<div class="post-content">
-		{{ content | safe }}
-	</div>
+
 	<div class="post-content">
 		<br/>
 		<br/>
@@ -53,14 +51,19 @@ class: post
 		{{status}}
 		</p>
 	</div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+	<div class="post-content">
+		{{ content | safe }}
+	</div>
 
 <div class="spacer"></div>
 <div class="spacer"></div>
 <div class="spacer"></div>
 
-{% assign previousPost = collections.painting | getPreviousCollectionItem: page %}
-{% assign nextPost = collections.painting | getNextCollectionItem: page %}
-{% if previousPost %}<a href="{{previousPost.url}}"><--previous</a>{% endif %} painting
+{% assign previousPost = collections.oeuvre | getPreviousCollectionItem: page %}
+{% assign nextPost = collections.oeuvre | getNextCollectionItem: page %}
+{% if previousPost %}<a href="{{previousPost.url}}"><--previous</a>{% endif %} work 
 {% if nextPost %}or the <a href="{{nextPost.url}}">next--></a>{% endif %}
 
 

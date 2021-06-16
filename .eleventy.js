@@ -1,6 +1,7 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const Image = require("@11ty/eleventy-img");
+const path = require('path');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const markdownIt = require("markdown-it");
@@ -11,7 +12,55 @@ if (process.env.NODE_ENV === "production") {
   console.log("Building site for production.")
 }
 
+async function imageShortcode(src, alt) {
+  let sizes = "(min-width: 1024px) 100vw, 50vw"
+  let srcPrefix = `.`
+  src = srcPrefix + src
+  console.log(`Generating image(s) from:  ${src}`)
+  if(alt === undefined) {
+    // Throw an error on missing alt (alt="" works okay)
+    throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`)
+  }  
+  let metadata = await Image(src, {
+    widths: [600, 900, 1500],
+    formats: ['webp', 'jpeg'],
+    urlPath: "/images/",
+    outputDir: "./_site/images/",
+    /* =====
+    Now we'll make sure each resulting file's name will 
+    make sense to you. **This** is why you need 
+    that `path` statement mentioned earlier.
+    ===== */
+    filenameFormat: function (id, src, width, format, options) {
+      const extension = path.extname(src)
+      const name = path.basename(src, extension)
+      return `${name}-${width}w.${format}`
+    }
+  })  
+  let lowsrc = metadata.jpeg[0]  
+  return `<picture>
+    ${Object.values(metadata).map(imageFormat => {
+      return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`
+    }).join("\n")}
+    <img
+      src="${lowsrc.url}"
+      width="${lowsrc.width}"
+      alt="${alt}"
+      loading="lazy"
+      decoding="async">
+  </picture>`
+}
+
+
 module.exports = function (eleventyConfig) {
+
+eleventyConfig.addNunjucksAsyncShortcode("image_o", imageShortcode)
+  eleventyConfig.addLiquidShortcode("image_o", imageShortcode)
+  // === Liquid needed if `markdownTemplateEngine` **isn't** changed from Eleventy default
+  eleventyConfig.addJavaScriptFunction("image_o", imageShortcode)
+
+
+
   eleventyConfig.addPairedShortcode("footnotes", function (todoItems) {
     return `<aside class='footnotes'>
             ${todoItems}
@@ -23,6 +72,9 @@ module.exports = function (eleventyConfig) {
     if (!alt) {
       throw new Error(`Missing \`alt\` on Image from: ${src}`);
     }
+    if (src == "post") {
+	src = "./grfx/2019/sculptures/molecule-marble_marble_progress.jpeg"; 
+}
 
     let stats = await Image(src, {
       widths: [25, 320, 640, 960, 1200, 1800, 2400],

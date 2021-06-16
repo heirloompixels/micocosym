@@ -1,0 +1,118 @@
+---
+layout: base
+class: post
+---
+<aside class="post-meta" style="visibility:hidden;">
+	{% if tags %}
+	{% assign t = tags | first %}
+	{% if t == "work" %}
+	<span>Work</span>
+	{% endif %}
+	{% endif %}
+
+	{% if teacher %}
+	<span><a href="/notes">Lecture Notes</a></span>
+	{% endif %}
+	<date class="post-date post-meta-item">
+		{{ page.date | date: "%B %d, %Y" }}
+	</date>
+	<span>{{content | strip_html | wordcount}} minutes</span>
+</aside>
+<header class="post-header {% if intro%}has-intro{%endif%}">
+	<div class='header-copy'>
+		<h1 style="visibility:hidden;" class="post-title">
+			{% if external_link %}
+			<a href="{{external_link}}">{{title}}</a>
+			{% else%}
+			{% if website %}
+			<a href="{{website}}">{{title}}</a>
+			{% else%}
+			{{ title }}
+			{% endif %}
+			{% endif %}
+		</h1>
+		{% if intro %}
+		<div class="post-intro">
+			{{ intro | renderMarkdown}}
+		</div>
+		{% endif %}
+	</div>
+</header>
+<article class='single-post {{page.class}} section-{{page.section}}'>
+{% image_o image "alt text" %} 
+
+	<div class="post-content">
+		<br/>
+		<br/>
+		<h2>{{title}}</h2>
+		<p>
+		{{medium}}<br/>
+		{{dimensions}}<br/>
+		{{genesis}}<br/><br/>
+		{{status}}
+		</p>
+	</div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+	<div class="post-content">
+		{{ content | safe }}
+	</div>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+{% assign previousPost = collections.oeuvre | getPreviousCollectionItem: page %}
+{% assign nextPost = collections.oeuvre | getNextCollectionItem: page %}
+{% if previousPost %}<a href="{{previousPost.url}}"><--previous</a>{% endif %} work 
+{% if nextPost %}or the <a href="{{nextPost.url}}">next--></a>{% endif %}
+
+
+
+<h2>See Also</h2>
+<ul>
+
+{%- for post in collections.painting -%}
+	<li {% if page.url == post.url %} aria-current="page"{% endif %}><a href="{{post.url}}">{{ post.data.title }}</a></li>
+{%- endfor -%}
+</ul>
+
+
+
+</article>
+<aside class="post-footnotes"></aside>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<section class='home-work home-section'>
+    <h2 style="--rows: {{collections.oeuvreByYear | size}}">
+        <span>
+            Oeuvre. 
+        </span>
+    </h2>
+    <ul class='project-list'>
+        {% for year in collections.oeuvreByYear %}
+        <span class="project-date" style="grid-row: span {{year.posts | size}}">
+            <span>
+                {{year.shortYear}}
+            </span>
+        </span>
+        {% assign posts = year.posts | reverse%}
+        {% for p in posts%}
+        <li {% if p.url == page.url %} aria-current="page"{% endif %} class='project-list-item'>
+            <h3 class="project-title">
+                <a  href='{{ p.url }}'>
+                    {{p.data.title}}
+                </a>
+            </h3>
+            <span class="project-category">{{p.data.category}}</span>
+        </li>
+        {% endfor %}
+        {% endfor %}
+    </ul>
+</section>
+<div class="spacer"></div>
+
