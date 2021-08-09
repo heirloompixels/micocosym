@@ -5,30 +5,9 @@ date: 2021-04-06
 tags: about
 category: Overview 
 ---
-
-## April 2021: New Website!
-
-I'm working hard on this new website.  Simplifying all design and just bringing text and images for your viewing pleasure.  This site is minimal and fast.  Instead of fancy layouts I'm choosing to serve higher quality images and a simple layout which will work for years and be easy maintain for the rest of my life.  
-
-It's new, so it's not all going to work well for a bit.  I'm copying over all my old content but it's a slow and time consuming process, especially as I inevitably keep writting new and better descriptions and ruminations about my work.  
-
-My old site will remain archived [here](https://attik.kyleparkercunningham.com "attik.kyleparkercunningham.com") and if you need a fully featured website I suggest you puruse the site for a moment.  I have to warn you that a recent wordpress update broke a lot of my layouts and so some things do not work as they once did anymore.  Hence the new website you are viewing now.  
-
-Jeannie and I have launched a new [project](https://intentionallyconfusing.com "intentionallyconfusing.com") and I hope you will take a moment to join that site.  Intentionally Confusing will be a repository for all our social media posting as well as the best and latest updates from our life working and creating in the wild.  
-
-This site will from now forward be the master archive of my work, my catalog raison if you will.  I hope to have this new site finished by the end of April 2021, many words to write and pixels to polish but deadlines have to be kept. 
-
-Thank you for your interest in my work.  I hope you find this site wonderful, evolving and entertaining. 
-
-Kyle Parker Cunningham  
-April 6th, 2021  
-Elephants Nest, Truth or Consequences New Mexico
-
-
-
 ## Kyle Parker Cunningham
 
-Visual artist and human being.
+Multidisciplinary artist and human being.
 
 I work in diverse media and often in long series where each individual work layers on top of the rest. The inter-webs of the information revolution have fundamentally changed the way we experience reality. No longer linear it is constantly happening all around us, touching the individual from all corners of the globe.
 
